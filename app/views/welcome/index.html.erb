@@ -1,2 +1,14 @@
-<h1>Hello, Rails!</h1>
-<%= link_to 'My Blog', controller: 'articles' %>
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="container theme-showcase">
+
+	<div class="jumbotron">
+		<h1>Welcome to My Blog</h1>
+		
+		<p>This is a simple blog application that enables publishing articles and receiving comments.</p>
+
+		<p> <em>Note: Login = <strong>blogger@startco.de</strong> | Password = <strong>Password1234!</strong></em> </p>
+
+		<%= link_to "Check Out My Blog", articles_path, class: "btn btn-primary btn-lg" %>
+	</div>
+
+</div> <!-- /container -->
